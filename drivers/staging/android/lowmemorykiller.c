@@ -104,6 +104,7 @@ static int lowmem_shrink(struct shrinker *s, int nr_to_scan, gfp_t gfp_mask)
 	int selected_oom_adj;
 	int array_size = ARRAY_SIZE(lowmem_adj);
 	int other_free = global_page_state(NR_FREE_PAGES);
+	unsigned long flags;
 #ifdef SEC_ADJUST_LMK
 	int other_file = global_page_state(NR_INACTIVE_FILE) +
 	global_page_state(NR_ACTIVE_FILE);
