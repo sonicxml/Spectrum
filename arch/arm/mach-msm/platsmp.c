@@ -26,8 +26,6 @@
 #include "pm.h"
 #include "scm-boot.h"
 
-#define SECONDARY_CPU_WAIT_MS 10
-
 int pen_release = -1;
 
 static inline int get_core_count(void)
