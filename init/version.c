@@ -50,7 +50,7 @@ const char linux_proc_banner[] =
 #else
 const char linux_proc_banner[] =
 	"%s version %s"
-	" (lge@android-build)"
+	" (sonicxml@SonicStudios)"
 	" (" LINUX_COMPILER ") %s\n";
 #endif	
 // LGE_CHANGE_E [feelgu.chung@lge.com] 2011-06-15 : Fix LG user@host 
